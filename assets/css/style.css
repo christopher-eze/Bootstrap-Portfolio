@@ -1,9 +1,9 @@
-.Header {
-  margin-left: auto;
-  margin-top: -120px;
-}
 
 .skillsSection {
   background-color: aqua;
   color: bisque;
+}
+
+.myNavbar {
+  color: blue;
 }
