@@ -38,20 +38,22 @@
   </nav>
 
   <!--Hero Section-->
-  <div class="p-2 bg-body-secondary border rounded-3 container-fluid">
+  <section class="header">
+  <div class="p-5 mb-4 bg-body-tertiary border rounded-3">
     <img class="mx-2 rounded-circle"  src="./images/Profile Pics.jpeg" height="300" width="300" alt="Christopher's Headshot">
-      <h1> <p class="fs-4 display-6 fw-bold text-center mt-120px">
-            Welcome to my GitHub Portfolio! 
-            <br>
-            Hi I'm Chris
-            <br>
-            Front End Developer
-            <br>
-            <a href="./docs/Resume Chris Ezenwenyi.pdf" class="btn btn-primary">Download Resume</a></button>
-          </p>
-      </h1>      
-    </div>    
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Welcome to my GitHub Portfolio!</h1>
+      <p class="col-md-8 fs-4">Welcome to my GitHub Portfolio! 
+        <br>
+        Hi I'm Chris
+        <br>
+        Front End Developer
+        <br></p>
+      <button class="btn btn-primary btn-lg" type="button">
+      <a href="./docs/Resume Chris Ezenwenyi.pdf" class="btn btn-primary">Download Resume</a>
+    </div>
   </div>
+  </section>
 
   <!--Work Section-->
   <section id="Work">
@@ -61,7 +63,7 @@
         <div class="card">
           <img src="./images/Capture.JPG" class="card-img-top" alt="..." height="200">
           <div class="card-body">
-            <h5 class="card-title">Horeison code refactor</h5>
+            <h2 class="card-title">Horeison code refactor</h2>
             <p class="card-text">Code refactor done with html and.css</p>
             <a href="https://christopher-eze.github.io/myPortfolio/
             " class="btn btn-primary">Link to Page</a>
@@ -73,7 +75,7 @@
         <div class="card">
           <img src="./images/led wall.JPG" class="card-img-top" alt="..." height="200">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h2 class="card-title">Card title</h2>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Link to Page</a>
           </div>
@@ -84,7 +86,7 @@
         <div class="card">
           <img src="./images/calculator.JPG" class="card-img-top" alt="..." height="200">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h2 class="card-title">Card title</h2>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -95,7 +97,7 @@
         <div class="card">
           <img src="./images/First website.JPG" class="card-img-top" alt="..." height="200">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h2 class="card-title">Card title</h2>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -106,7 +108,7 @@
         <div class="card">
           <img src="./images/running.JPG" class="card-img-top" alt="..." height="200">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h2 class="card-title">Card title</h2>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -117,10 +119,10 @@
   </section>
 
   <!-- Skills section-->
-  <section class="bg-primary text-center border rounded-3 p-5" id="Skills">
-    <div class="container" id="section">
+  <section id="Skills" class="bg-primary text-center border rounded-3 p-5 skillsSection">
+    <div class="container">
       <div class="row">
-        <h2>Skills Expected to Learn from bootcamp</h2>
+        <h2>Skills Expected to Learn from Bootcamp</h2>
         <h3>Html, Css & Javascript</h3>
         <ul>
           <img height="150" src="./images/html 2 logo.png" alt="...">
@@ -132,8 +134,10 @@
   </section>
   
   <!--About Me section-->
-  <section id="contact">
-    <h2>About Me</h2>
+  <div class="card p-2">
+    <div class="card-body fw-bold">
+   
+
     <article id="aboutMeArticle">
       Welcome to my GitHub portfolio! I'm Chris, a seasoned professional with a background in Salesforce administration and project management. I am passionate about leveraging technology to drive innovation and efficiency, particularly in the realm of Salesforce development.
       <p>
@@ -159,6 +163,6 @@
   </aside>
   </aside>
 
-  </section>
+</section>
 </body>
 </html>
