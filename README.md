@@ -24,7 +24,11 @@ The redesigned webpage is deployed and live here. [Provide the link to the live 
 
 Conclusion
 The integration of Bootstrap significantly improved the aesthetics and responsiveness of the existing webpage. This project demonstrates the effectiveness of Bootstrap in revamping web designs for modern user experiences.
+
+
  [Deployed page on GitHub Pages](https://christopher-eze.github.io/Bootstrap-Portfolio/)
+
+ 
  Screenshot of the deployed page on Github:
 ![Homepage](./images/Bootstrap-Portfolio.png)
 
